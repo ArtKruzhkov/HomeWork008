@@ -246,6 +246,8 @@
 //     }
 // }
 // PrintArray(array);
+
+// Не работает
 // void FillArray(int row, int col)    // Пробовал через рекурсию, как показывали на лекции, не получилось.
 // {
 //     int temp = 1;
@@ -258,6 +260,6 @@
 //         FillArray(row, col - 1);
 //         FillArray(row - 1, col);
 //     }
-// }                                 // Не работает до этой строки.
+// }                                 
 // FillArray(0, 0);
-// PrintArray(array);
+// PrintArray(array);                // Не работает до этой строки.
